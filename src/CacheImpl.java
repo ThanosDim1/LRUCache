@@ -1,9 +1,15 @@
 public class CacheImpl<K,V> implements Cache<K,V>{
 
+    int size;
+
+    public CacheImpl(int size) {
+        this.size = size;
+
+    }
+
     @Override
     public V lookUp(K key) {
         return null;
-        nigga balss
 
     }
 
