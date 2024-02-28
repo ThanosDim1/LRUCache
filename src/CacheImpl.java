@@ -1,10 +1,13 @@
 public class CacheImpl<K,V> implements Cache<K,V>{
+    private long numberOfCacheMiss;
+    private long numberOfTotalLookups;
+    private int cachesize;
 
-    int size;
+    private HashmapImpl<K,V> HashMap;
+    private DoublyLinkedList<T> queue;
 
-    public CacheImpl(int size) {
-        this.size = size;
-
+    public CacheImpl(int cachesize) {
+        this.cachesize = cachesize;
     }
 
     @Override
@@ -20,21 +23,21 @@ public class CacheImpl<K,V> implements Cache<K,V>{
 
     @Override
     public double getHitRatio() {
-        return 0;
+        return (double)(numberOfTotalLookups - numberOfCacheMiss)/numberOfTotalLookups;
     }
 
     @Override
     public long getHits() {
-        return 0;
+        return numberOfTotalLookups - numberOfCacheMiss;
     }
 
     @Override
     public long getMisses() {
-        return 0;
+        return numberOfCacheMiss;
     }
 
     @Override
     public long getNumberOfLookUps() {
-        return 0;
+        return numberOfTotalLookups;
     }
 }
