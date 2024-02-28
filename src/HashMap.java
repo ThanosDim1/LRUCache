@@ -12,7 +12,7 @@ public class HashMap<K,V> {
     }
 
     public Node<Object<K,V>> remove(Object<K,V> node){
-        if(node.key == null) return null;
+        if(node == null) return null;
         return buffer[hashing(node.key)].remove(node);
     }
 

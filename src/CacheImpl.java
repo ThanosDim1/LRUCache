@@ -28,7 +28,7 @@ public class CacheImpl<K,V> implements Cache<K,V>{
     public void store(K key, V value) {
         ++numberOfCacheMiss;
         Object<K,V> keyItemDeleted;
-        if(list.getLast().value == null){
+        if(list.getLast() == null){
             keyItemDeleted = null;
         }else{
             keyItemDeleted = list.getLast();

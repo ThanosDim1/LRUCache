@@ -91,7 +91,7 @@ public class DoubleEndedList<T> {
 
     public T getLast() throws NoSuchElementException {
         if (isEmpty()) {
-            throw new NoSuchElementException();
+            return null;
         }
         return tail.getData();
     }

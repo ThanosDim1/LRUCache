@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66053312-8b5d-40da-9a0b-53ffa0c1cbd5" name="Changes" comment="Node hashmap and DoubleEndedQueue classes">
-      <change afterPath="$PROJECT_DIR$/src/DoubleEndedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Object.java" afterDir="false" />
+    <list default="true" id="66053312-8b5d-40da-9a0b-53ffa0c1cbd5" name="Changes" comment="Exo kanei arketa pragmata sxedon teleiosa alla de xero ama eina sosta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CacheImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CacheImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoublyLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashmapImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingleEndedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoubleEndedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoubleEndedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCacheSpeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCacheSpeed.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +85,7 @@
       <updated>1708977995203</updated>
       <workItem from="1708977996266" duration="1000" />
       <workItem from="1708978483939" duration="1137000" />
-      <workItem from="1709111707081" duration="16468000" />
+      <workItem from="1709111707081" duration="17726000" />
     </task>
     <task id="LOCAL-00001" summary="Main Project Files">
       <option name="closed" value="true" />
@@ -115,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709124652113</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Exo kanei arketa pragmata sxedon teleiosa alla de xero ama eina sosta">
+      <option name="closed" value="true" />
+      <created>1709142561633</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709142561633</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +128,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Main Project Files" />
     <MESSAGE value="Node hashmap and DoubleEndedQueue classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Node hashmap and DoubleEndedQueue classes" />
+    <MESSAGE value="Exo kanei arketa pragmata sxedon teleiosa alla de xero ama eina sosta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exo kanei arketa pragmata sxedon teleiosa alla de xero ama eina sosta" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
