@@ -3,6 +3,8 @@ public class CacheImpl<K,V> implements Cache<K,V>{
     @Override
     public V lookUp(K key) {
         return null;
+        nigga balss
+
     }
 
     @Override
