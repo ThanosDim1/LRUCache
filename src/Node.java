@@ -4,8 +4,8 @@
  */
 public class Node<T> {
     protected T data;
-    protected Node next = null;
-    protected Node prev = null;
+    protected Node<T> next = null;
+    protected Node<T> prev = null;
 
     Node(T data) {
         this.data = data;
@@ -23,5 +23,12 @@ public class Node<T> {
     public Node<T> getPrev() {
         // get previous node
         return prev;
+    }
+
+    public void setNext(Node<T> next) {
+        this.next = next;
+    }
+    public void setPrev(Node<T> prev) {
+        this.prev = prev;
     }
 }
