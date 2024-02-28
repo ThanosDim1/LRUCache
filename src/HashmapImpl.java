@@ -8,7 +8,7 @@ import java.util.NoSuchElementException;
  */
 public class HashmapImpl<K,V>{
 
-    private DoubleEndedQueue<K,V>[] array;
+    private DoublyLinkedList<K,V>[] array;
 
     /**
      * the number of items currently inserted
@@ -22,7 +22,7 @@ public class HashmapImpl<K,V>{
 
     public HashmapImpl(int arraySize, Comparator<T> cmp) {
 
-        this.array = new DoubleEndedQueue[arraySize];
+        this.array = new DoublyLinkedList[arraySize];
         this.size = 0;
         this.cmp = cmp;
     }
