@@ -1,6 +1,8 @@
+package main;
+
+import LRUCache.*;
 
 import java.io.IOException;
-
 
 public class TestCacheSpeed {
 

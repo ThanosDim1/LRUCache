@@ -1,6 +1,7 @@
+package LRUCache;
 
 /**
- * Defines the interface for a Cache data structure
+ * Defines the interface for a LRUCache.Cache data structure
  * The cache stores item of type V with keys of type K.
  * Keys must be unique
  * */

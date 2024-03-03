@@ -1,3 +1,4 @@
+package main;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -14,7 +15,7 @@ public class WorkloadReader {
 	private boolean closed = false;
 
 	/**
-	 * Creates a new WorkloadReader.
+	 * Creates a new main.WorkloadReader.
 	 * 
 	 * @param file
 	 *            the path to the file that stores the series of requests

@@ -1,4 +1,4 @@
-
+package main;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -15,7 +15,7 @@ public class DataSource {
 	private String theFile;
 	
 	/**
-	 * Creates a new DataSource instance
+	 * Creates a new main.DataSource instance
 	 * @param file the path of file with the item
 	 */
 	public DataSource(String file) {

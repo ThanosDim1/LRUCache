@@ -4,12 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66053312-8b5d-40da-9a0b-53ffa0c1cbd5" name="Changes" comment="Exo kanei arketa pragmata sxedon teleiosa alla de xero ama eina sosta">
+    <list default="true" id="66053312-8b5d-40da-9a0b-53ffa0c1cbd5" name="Changes" comment="small changes">
+      <change afterPath="$PROJECT_DIR$/src/components/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastrucs/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastrucs/HashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CacheImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CacheImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoubleEndedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoubleEndedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestCacheSpeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCacheSpeed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LRUCache/Cache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CacheImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LRUCache/CacheImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoubleEndedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Object.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SingleEndedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastrucs/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCacheSpeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/TestCacheSpeed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WorkloadReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WorkloadReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +57,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/thana/OneDrive - aueb.gr/3o CS/Δομες Δεδομενων/LRUCache/src",
+    "last_opened_file_path": "C:/Users/thana/OneDrive - aueb.gr/3o CS/Δομες Δεδομενων/HW4 - LRU Cache",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,7 +95,9 @@
       <updated>1708977995203</updated>
       <workItem from="1708977996266" duration="1000" />
       <workItem from="1708978483939" duration="1137000" />
-      <workItem from="1709111707081" duration="17726000" />
+      <workItem from="1709111707081" duration="21540000" />
+      <workItem from="1709220208174" duration="4724000" />
+      <workItem from="1709462612474" duration="2163000" />
     </task>
     <task id="LOCAL-00001" summary="Main Project Files">
       <option name="closed" value="true" />
@@ -119,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709142561633</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="XAXAXAXA LEITOURGEI">
+      <option name="closed" value="true" />
+      <created>1709143722984</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709143722984</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +149,8 @@
     <MESSAGE value="Main Project Files" />
     <MESSAGE value="Node hashmap and DoubleEndedQueue classes" />
     <MESSAGE value="Exo kanei arketa pragmata sxedon teleiosa alla de xero ama eina sosta" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exo kanei arketa pragmata sxedon teleiosa alla de xero ama eina sosta" />
+    <MESSAGE value="XAXAXAXA LEITOURGEI" />
+    <option name="LAST_COMMIT_MESSAGE" value="XAXAXAXA LEITOURGEI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
