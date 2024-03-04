@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66053312-8b5d-40da-9a0b-53ffa0c1cbd5" name="Changes" comment="Put comments and made the classes into packages">
+    <list default="true" id="66053312-8b5d-40da-9a0b-53ffa0c1cbd5" name="Changes" comment="Some optimization for faster results">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LRUCache/CacheImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LRUCache/CacheImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastrucs/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastrucs/HashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastrucs/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastrucs/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/TestCacheSpeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/TestCacheSpeed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastrucs/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastrucs/DoublyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +85,7 @@
       <workItem from="1709111707081" duration="21540000" />
       <workItem from="1709220208174" duration="4724000" />
       <workItem from="1709462612474" duration="2942000" />
-      <workItem from="1709579208597" duration="2018000" />
+      <workItem from="1709579208597" duration="2861000" />
     </task>
     <task id="LOCAL-00001" summary="Main Project Files">
       <option name="closed" value="true" />
@@ -138,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709464869580</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Some optimization for faster results">
+      <option name="closed" value="true" />
+      <created>1709581354218</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709581354218</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +155,8 @@
     <MESSAGE value="Exo kanei arketa pragmata sxedon teleiosa alla de xero ama eina sosta" />
     <MESSAGE value="XAXAXAXA LEITOURGEI" />
     <MESSAGE value="Put comments and made the classes into packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Put comments and made the classes into packages" />
+    <MESSAGE value="Some optimization for faster results" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some optimization for faster results" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
