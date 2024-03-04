@@ -29,13 +29,13 @@ public class HashMap<K,V> {
     }
 
     // Method to add a node to the DataStructures.HashMap.
-    public void add(Node<Data<K,V>> node){
+    public void add(Data<K,V> node){
         // Use the hashing method to find the correct bucket and call the add method on that DataStructures.SinglyLinkedList.
-        buffer[hashing(node.data.key)].add(node);
+        buffer[hashing(node.key)].add(node);
     }
 
     // Method to check if a key is present in the DataStructures.HashMap.
-    public Node<Data<K,V>> contains(K key){
+    public Data<K, V> contains(K key){
         // Use the hashing method to find the correct bucket and call the find method on that DataStructures.SinglyLinkedList to check for the key.
         return buffer[hashing(key)].find(key);
     }

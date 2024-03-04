@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66053312-8b5d-40da-9a0b-53ffa0c1cbd5" name="Changes" comment="small changes">
-      <change afterPath="$PROJECT_DIR$/src/components/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastrucs/DoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastrucs/HashMap.java" afterDir="false" />
+    <list default="true" id="66053312-8b5d-40da-9a0b-53ffa0c1cbd5" name="Changes" comment="Put comments and made the classes into packages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LRUCache/Cache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CacheImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LRUCache/CacheImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoubleEndedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Object.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SingleEndedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastrucs/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestCacheSpeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/TestCacheSpeed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkloadReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WorkloadReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LRUCache/CacheImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LRUCache/CacheImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastrucs/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastrucs/HashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastrucs/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastrucs/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/TestCacheSpeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/TestCacheSpeed.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,21 +40,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/thana/OneDrive - aueb.gr/3o CS/Δομες Δεδομενων/HW4 - LRU Cache",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/thana/OneDrive - aueb.gr/3o CS/Δομες Δεδομενων/HW4 - LRU Cache&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\thana\OneDrive - aueb.gr\3o CS\Δομες Δεδομενων\LRUCache\src" />
@@ -97,7 +87,8 @@
       <workItem from="1708978483939" duration="1137000" />
       <workItem from="1709111707081" duration="21540000" />
       <workItem from="1709220208174" duration="4724000" />
-      <workItem from="1709462612474" duration="2163000" />
+      <workItem from="1709462612474" duration="2942000" />
+      <workItem from="1709579208597" duration="2018000" />
     </task>
     <task id="LOCAL-00001" summary="Main Project Files">
       <option name="closed" value="true" />
@@ -139,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709143722984</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Put comments and made the classes into packages">
+      <option name="closed" value="true" />
+      <created>1709464869580</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709464869580</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +149,8 @@
     <MESSAGE value="Node hashmap and DoubleEndedQueue classes" />
     <MESSAGE value="Exo kanei arketa pragmata sxedon teleiosa alla de xero ama eina sosta" />
     <MESSAGE value="XAXAXAXA LEITOURGEI" />
-    <option name="LAST_COMMIT_MESSAGE" value="XAXAXAXA LEITOURGEI" />
+    <MESSAGE value="Put comments and made the classes into packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Put comments and made the classes into packages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

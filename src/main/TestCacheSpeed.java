@@ -13,10 +13,10 @@ public class TestCacheSpeed {
 		Cache<String, String> cache = new CacheImpl<>(cachesize);
 		
 		//give path to the dat file
-		String dataFile = "C:/Users/thana/OneDrive - aueb.gr/3o CS/Δομες Δεδομενων/LRUCache/src/datasets/dataset-5000/data-5000.dat";
+		String dataFile = "C:\\Users\\thana\\OneDrive - aueb.gr\\3o CS\\Δομες Δεδομενων\\LRUCache\\src\\datasets\\dataset-5000\\data-5000.dat";
 		
 		//give path to the workload file
-		String requestsFile = "C:/Users/thana/OneDrive - aueb.gr/3o CS/Δομες Δεδομενων/LRUCache/src/datasets/dataset-5000/requests-100000.dat";
+		String requestsFile = "C:\\Users\\thana\\OneDrive - aueb.gr\\3o CS\\Δομες Δεδομενων\\LRUCache\\src\\datasets\\dataset-5000\\requests-100000.dat";
 
 		DataSource dataSource = new DataSource(dataFile);
 		WorkloadReader requestReader = new WorkloadReader(requestsFile);

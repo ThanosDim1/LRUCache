@@ -7,39 +7,39 @@ public class CacheImpl<K,V> implements Cache<K,V> {
     private long CacheMisses;
     private long TotalLookups;
 
-    private final HashMap<K,V> HashMap;
+    private final HashMap<K,V> storage;
     private final DoublyLinkedList<Data<K,V>> cache;
 
     public CacheImpl(int cachesize) {
-        HashMap = new HashMap<>(cachesize);
+        storage = new HashMap<>(cachesize);
         cache = new DoublyLinkedList<>();
     }
 
     @Override
     public V lookUp(K key) {
         ++TotalLookups;
-        Node<Data<K,V>> result = HashMap.contains(key);
+        Data<K,V> result = storage.contains(key);
         if(result == null){
             return null;
         }else{
-            cache.addFirst(result.data);
-            return result.data.value;
+            cache.addFirst(result);
+            return result.value;
         }
     }
 
     @Override
     public void store(K key, V value) {
         ++CacheMisses;
-        Data<K,V> temp;
+        Data<K,V> deleted;
         if(cache.getLast() == null){
-            temp = null;
+            deleted = null;
         }else{
-            temp = cache.getLast();
+            deleted = cache.getLast();
         }
 
-        HashMap.remove(temp);
-        Node<Data<K,V>> doublyLinkedListNode = cache.addFirst(new Data<>(key, value));
-        HashMap.add(doublyLinkedListNode);
+        storage.remove(deleted);
+        Node<Data<K,V>> NewNode = cache.addFirst(new Data<>(key, value));
+        storage.add(NewNode.getData());
     }
 
     @Override
