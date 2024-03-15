@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66053312-8b5d-40da-9a0b-53ffa0c1cbd5" name="Changes" comment="Some optimization for faster results">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastrucs/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastrucs/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LRUCache/CacheImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LRUCache/CacheImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +87,8 @@
       <workItem from="1709220208174" duration="4724000" />
       <workItem from="1709462612474" duration="2942000" />
       <workItem from="1709579208597" duration="2861000" />
+      <workItem from="1709670481673" duration="613000" />
+      <workItem from="1710532822938" duration="193000" />
     </task>
     <task id="LOCAL-00001" summary="Main Project Files">
       <option name="closed" value="true" />
